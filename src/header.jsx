@@ -16,19 +16,19 @@ export default function Header({currentPage}){
 
     return(
 <header className="bg-[#014e56] px-12 py-10 flex items-center gap-8 max-sm:px-2 max-sm:gap-4">
-    <a href="">
+    <a href="../index.html">
         <img src={logo} alt="logo" className="w-32 max-sm:w-24" />
     </a>
     <nav className="flex items-center justify-between basis-4/5 text-xl max-sm:text-xs">
         <div>
             <ul className="flex gap-4">
                 <li id='home' className="hover:text-[#f67e7e]">
-                    <a href="">
+                    <a href="../index.html">
                         Home
                     </a>
                 </li>
                 <li id='about' className="hover:text-[#f67e7e]">
-                    <a href="">
+                    <a href="../about.html">
                         About
                     </a>
                 </li>

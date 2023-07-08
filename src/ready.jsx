@@ -1,4 +1,4 @@
-import pattern from '../assets/images/bg-pattern-home-6-about-5.svg'
+import pattern from './assets/images/bg-pattern-home-6-about-5.svg'
 
 export default function Ready(){
     return(

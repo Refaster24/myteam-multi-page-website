@@ -21,19 +21,19 @@ export default function Footer({currentPage}){
 <footer className="bg-[#002529] px-12 py-16 flex justify-between gap-12 max-sm:items-center max-sm:flex-col">
     <div className='flex gap-12 max-sm:items-center max-sm:flex-col'>
     <div>
-        <a href="">
+        <a href="../index.html">
         <img src={logo} alt="logo" className="w-32 mb-4 max-sm:w-24" />
         </a>
 
         <div>
             <ul className="flex gap-4">
                 <li id='homeFooter' className="hover:text-[#f67e7e]">
-                    <a href="">
+                    <a href="../index.html">
                         Home
                     </a>
                 </li>
                 <li id='aboutFooter' className="hover:text-[#f67e7e]">
-                    <a href="">
+                    <a href="../about.html">
                         About
                     </a>
                 </li>
