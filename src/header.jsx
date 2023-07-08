@@ -15,7 +15,7 @@ export default function Header({currentPage}){
     })
 
     return(
-<header className="bg-[#014e56] px-12 py-10 flex items-center gap-8 max-sm:px-2 max-sm:gap-4">
+<header className="bg-[#014e56] px-12 py-10 flex items-center gap-8 max-sm:px-5 max-sm:gap-4">
     <a href="../index.html">
         <img src={logo} alt="logo" className="w-32 max-sm:w-24" />
     </a>
@@ -35,7 +35,7 @@ export default function Header({currentPage}){
             </ul>
         </div>
 
-        <a className='border-2 border-white rounded-3xl px-2 py-1 transition-all duration-500 font-bold hover:text-black hover:bg-white hover:scale-110' href="">contact us</a>
+        <a className='border-2 border-white rounded-3xl px-2 py-1 transition-all duration-500 font-bold hover:text-black hover:bg-white hover:scale-110' href="../contact.html">contact us</a>
 
     </nav>
 </header>

@@ -9,3 +9,9 @@ body{
     background-color: #020202;
     color: #fff;
 }
+
+/* for contact/form.jsx */
+
+.invalid::placeholder{
+    color: rgb(220 38 38);
+}

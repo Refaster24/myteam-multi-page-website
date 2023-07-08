@@ -17,7 +17,7 @@ export default defineConfig({
       input:{
         index : resolve(__dirname,'index.html'),
         about : resolve(__dirname,'about.html'),
-        // contact : resolve(__dirname,'contact.html'),
+        contact : resolve(__dirname,'contact.html'),
       }
     }
   }

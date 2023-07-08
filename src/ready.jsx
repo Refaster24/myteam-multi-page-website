@@ -8,7 +8,7 @@ export default function Ready(){
             Ready to get started?
         </h2>
 
-        <a className='relative z-20 text-2xl border-2 border-black rounded-3xl px-2 py-1 transition-all duration-500 font-bold hover:text-white hover:bg-black hover:scale-110 max-sm:text-xl' href="">contact us</a>
+        <a className='relative z-20 text-2xl border-2 border-black rounded-3xl px-2 py-1 transition-all duration-500 font-bold hover:text-white hover:bg-black hover:scale-110 max-sm:text-xl' href="../contact.html">contact us</a>
 </section>
     )
 }
